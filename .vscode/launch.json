@@ -9,8 +9,10 @@
             "stopOnEntry": false,
             "args": [
                 "--no-timeouts",
-                "--compilers",
-                "ts:ts-node/register",
+                "-r",
+                "ts-node/register",
+                "-r",
+                "tsconfig-paths/register",
                 "${workspaceRoot}/test/**/*.spec.ts"
             ],
             "cwd": "${workspaceRoot}",

@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 import { describe, it } from 'mocha'
-import Calculator from '../src/Calculator'
+import Calculator from '@src/Calculator'
 
 describe('Calculator', () => {
     describe('Add', () => {

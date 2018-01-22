@@ -1,8 +1,13 @@
 {
     "compilerOptions": {
         "module": "commonjs",
+        "moduleResolution": "node",
         "sourceMap": true,
         "target": "es2015",
-        "isolatedModules": true
+        "isolatedModules": true,
+        "baseUrl": ".",
+        "paths": {
+            "@src/*": ["src/*"]
+        }
     }
 }
